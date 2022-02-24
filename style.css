@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #131921;
+    display: block;
+    height: 9vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.logo{
+    display: flex;
+    }
+
+.imglogo{
+    height: 7vh;
+    padding: 5px 8px;
+}
+
+.img{
+    height:9vh;
+}
+.img:hover{
+    border: 2px solid white;
+}
+
+#dd{
+    height:7vh;
+    margin: 7px 0px 0px 0px;
+    width: 4vw;
+
+}
+
+.searchbox{
+    float: right;
+    height: 5vh;
+    width: 40vw;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 0px;
+    font-size: 17px;
+}
+
+.searchimg{
+    height: 6.8vh;
+    margin-top: 8px;
+}
+
+.searchimg:hover{
+    border: 1px solid white;
+}
+
+.flag{
+
+    height: 3vh;
+    width: 2vw;
+    margin-top: 22px;
+    margin-left: 16px;
+}
+
+.flag:hover{
+    border: 1px solid white;
+}
+
+.hello{
+    color: white;
+    font-size: medium;
+    margin-top: 9px;
+    margin-left: 30px;
+}
+
+.hello:hover{
+    border: 2px solid white;
+}
+
+
+.ret:hover{
+    border: 2px solid white;
+}
+
+.ret{
+    color: white;
+    margin-top: 9px;
+    font-size: medium;
+    margin-left: 30px;
+}
+
+.cart{
+    height: 8vh;
+    width: 7vw;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.cart:hover{
+    border:2px solid white;
+}
+.headerbelow{
+    display: flex;
+    padding-top: 9vh;
+    background-color:#232f3e ;
+    height: 6vh;
+    width: 100vw;
+    
+}
+
+.menu{
+    margin-top:3px ;
+    margin-left: 15px;
+    
+}
+.menu:hover{
+    border: 2px solid white;
+}
+.allhead{
+    color: white;
+    margin-right: 21px;
+    margin-top: 9px;
+}
+
+.allhead:hover{
+    border: 2px solid white;
+}
+
+.indfees{
+    padding-left: 26px;
+}
+.indfees:hover{
+    border: 2px solid white;
+}
+
+.himg{
+    height : 100vh;
+    width : 100vw;
+}
+.slider{
+    background-image: url(slid1.jpg);
+    background-size: cover;
+   height: 100vh;
+   width: 100vw;
+}
+.firstcont{
+    margin-top: 45vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:inline-block;
+    background-color: white;
+    min-width: 310px;
+    max-width: 400px;
+    height: 420px;
+    border: 2px solid black;
+
+}
+.firstcont:hover{
+    cursor: pointer;
+}
+.fc1{
+    align-items: center;
+    font-size:130%;
+    margin-left: 1vw;
+    font-weight: bolder;
+}
+.con1{
+    width: 290px;
+    height: 300px;
+    margin-left: 0.7vw;
+    margin-top: 10px;
+}
+.fc2{
+    margin-left: 1vw;
+    margin-top: 1vh;
+    color: blue;
+}
+.fc2:hover{
+    color: red;
+    cursor: pointer;
+}
