@@ -17,13 +17,13 @@ header{
 
 .imglogo{
     height: 7vh;
-    width: 30vw;
+    width: 15vw;
     padding: 5px 8px;
 }
 
 .img{
     height:9vh;
-    width:30vw;
+    width:20vw;
 }
 .img:hover{
     border: 2px solid white;
